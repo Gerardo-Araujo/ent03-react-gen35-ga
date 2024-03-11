@@ -31,7 +31,7 @@ useEffect(() => {
 
   return (
     <div className='app'>
-      <img className='app__img' src="public/rickandmorty.png" />
+      <img className='app__img' src="./src/assets/rickandmorty.png" />
       
       <h1 className='app__title'>Rick and Morty</h1>
       <FormSearch 
