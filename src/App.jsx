@@ -1,8 +1,7 @@
 /**
  * rafce 
  *  https://rickandmortyapi.com/documentation/#get-a-single-location
- */
-
+ */import imagen from './assets/rickandmorty.png'
 import { useEffect, useState } from 'react'
 import  './App.css'
 import useFetch from './assets/hooks/useFetch'
@@ -31,7 +30,7 @@ useEffect(() => {
 
   return (
     <div className='app'>
-      <img className='app__img' src="./assets/rickandmorty.png" />
+      <img className='app__img' src={imagen} />
       
       <h1 className='app__title'>Rick and Morty</h1>
       <FormSearch 
